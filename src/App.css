@@ -111,6 +111,8 @@ table {
 
 #game-title {
 	font-weight: 700;
+} #game-title:hover {
+	cursor: pointer;
 }
 
 #main-header {

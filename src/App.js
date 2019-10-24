@@ -9,14 +9,24 @@ class App extends Component {
   };
 
   renderRandom = () => {
-    // let newArr = this.state.images;
-    // const randSort = 
     this.state.images.sort((a, b) => {
       return 0.5 - Math.random();
     });
-    // randSort();
     this.setState({ images })
-    // console.log(props.images);
+  }
+
+  clicked = () => {
+    // let newState = Object.assign({}, this.state);
+    // newState[].title = "Tofu Stir Fry and other stuff";
+    // this.setState(newState);
+    for (let i = 0; i < this.state.images.length; i++) {
+      console.log(this.state.images[i].id);
+      
+    }
+  }
+
+  refresh = () => {
+    window.location.reload();
   }
     
   render() {
@@ -24,7 +34,7 @@ class App extends Component {
     return (
       <div className="App">
         <nav className="nav-div">
-          <h1 id="game-title">React Click Game</h1>
+          <h1 id="game-title" onClick={this.refresh}>React Click Game</h1>
           <h1>Click an Image to begin!</h1>
           <h1>Score: 0 | Top Score: 0</h1>
         </nav>
@@ -33,7 +43,7 @@ class App extends Component {
           <h4 id="secondary-header">Click on an image to earn points, but don't click on any more than once!</h4>
         </header>
         <div className="image-container">
-          <Images images={this.state.images} renderRandom={this.renderRandom} key={this.state.images.id} />
+          <Images images={this.state.images} clicked={this.clicked} renderRandom={this.renderRandom} key={this.state.images.id} />
         </div>
         <footer className="footer">
           <div id="empty-purple-div">

@@ -1,15 +1,13 @@
 import React from 'react';
-// import GameItem from "./GameItem";
 import PropTypes from "prop-types";
 import "./game.css";
 
 function Images(props) {
   console.log(props.images);
-  // props.renderRandom();
 
   return (
     props.images.map((image) => (
-        <img className="image-div" onClick={props.renderRandom} src={image.image} alt={image.id} key={image.id}/>
+      <img className="image-div" onMouseDown={props.clicked} onMouseUp={props.renderRandom} src={image.image} alt={"image-" + image.id} value={image.id} key={image.id}/>
     ))
   );
 }
