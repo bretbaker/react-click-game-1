@@ -1,0 +1,14 @@
+.image-div {
+  display: inline-block;
+  margin: 20px;
+  width: 150px;
+  box-shadow: 0 5px 10px gray;
+  border: 5px solid lightgrey;
+  border-radius: 3px;
+  transition: transform, box-shadow;
+  transition-duration: 150ms;
+} .image-div:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px gray;
+}
