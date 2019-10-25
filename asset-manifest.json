@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-click-game-1/static/css/main.ba3e88ed.chunk.css",
+    "main.js": "/react-click-game-1/static/js/main.1b1bab76.chunk.js",
+    "main.js.map": "/react-click-game-1/static/js/main.1b1bab76.chunk.js.map",
+    "runtime-main.js": "/react-click-game-1/static/js/runtime-main.8c0d66b2.js",
+    "runtime-main.js.map": "/react-click-game-1/static/js/runtime-main.8c0d66b2.js.map",
+    "static/js/2.d70d7266.chunk.js": "/react-click-game-1/static/js/2.d70d7266.chunk.js",
+    "static/js/2.d70d7266.chunk.js.map": "/react-click-game-1/static/js/2.d70d7266.chunk.js.map",
+    "index.html": "/react-click-game-1/index.html",
+    "precache-manifest.d1a20425351662487991092108e0573d.js": "/react-click-game-1/precache-manifest.d1a20425351662487991092108e0573d.js",
+    "service-worker.js": "/react-click-game-1/service-worker.js",
+    "static/css/main.ba3e88ed.chunk.css.map": "/react-click-game-1/static/css/main.ba3e88ed.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c0d66b2.js",
+    "static/js/2.d70d7266.chunk.js",
+    "static/css/main.ba3e88ed.chunk.css",
+    "static/js/main.1b1bab76.chunk.js"
+  ]
+}
