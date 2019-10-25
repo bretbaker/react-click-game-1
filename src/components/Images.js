@@ -1,20 +1,27 @@
-import React from 'react';
+import React, { Component } from 'react';
+import IndImage from './IndImage';
 import PropTypes from "prop-types";
 import "./game.css";
 
-function Images(props) {
-  console.log(props.images);
+class Images extends Component {
 
-  return (
-    props.images.map((image) => (
-      <img className="image-div" onMouseDown={props.clicked} onMouseUp={props.renderRandom} src={image.image} alt={"image-" + image.id} value={image.id} key={image.id}/>
-    ))
-  );
+  render() {
+    console.log(this.props.images);
+
+    return (
+      this.props.images.map((e) => (
+        <div className="image-div" onClick={this.props.randomize} key={-(e.id)}>
+          <IndImage image={e} key={e.id} gameOver={this.props.gameOver}/>
+        </div>
+      ))
+    );
+  }
 }
 
 // PropTypes
 Images.propTypes = {
-  images: PropTypes.array.isRequired
+  images: PropTypes.array.isRequired,
+  gameOver: PropTypes.func.isRequired
 }
 
 

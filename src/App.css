@@ -138,6 +138,11 @@ table {
 	font-weight: 700;
 }
 
+#directive {
+	transition: color;
+	transition-duration: 300ms;
+}
+
 @media only screen and (min-height: 1000px) {
 	.footer {
 		position: fixed;
