@@ -1,5 +1,13 @@
-Code Bootcamp HW
-- A simple game where you try to set and beat a high score by clicking images that you have not clicked previously
-- Each time the player clicks an image, it is accounted for and the images are shuffled randomly
-- This app utlilzes ReactJS, HTML, CSS, JSX, and more...
-- This app is deployed herre: https://bretbaker808.github.io/react-click-game-1/
+# Memory Game
+
+Front-end React game application that utilizes state to store a score.
+
+The objective of the game is to try and click all of the images only once. The images shuffle position on click.
+
+Tools:
+
+- React, JavaScript, HTML & CSS
+
+Site: https://react-click-game-1.herokuapp.com/
+
+![alt text](https://github.com/bretbaker808/devhub-mern-z/blob/master/readme-img/desktop-demo-1.gif)
