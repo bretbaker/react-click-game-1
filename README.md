@@ -10,4 +10,4 @@ Tools:
 
 Site: https://react-click-game-1.herokuapp.com/
 
-![alt text](https://github.com/bretbaker808/devhub-mern-z/blob/master/readme-img/desktop-demo-1.gif)
+![alt text](https://github.com/bretbaker808/react-click-game-1/blob/master/readme-img/desktop-demo-1.gif)
